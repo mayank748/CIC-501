@@ -1,0 +1,2 @@
+#To exclude the txt file from untracked file
+*.txt
