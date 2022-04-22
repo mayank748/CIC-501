@@ -3,7 +3,7 @@
 dayNumber=0
 read -p "Enter the number of day in week " dayNumber
 
-if [ "$dayNumber" == "1" ]
+if [ $dayNumber == 1 ]
 then
 	echo "Monday"
 elif [ $dayNumber -eq 2 ]

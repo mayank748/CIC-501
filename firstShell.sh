@@ -20,6 +20,7 @@ echo $number
 ((number--))
 done
 
+echo "***************************if else*****************************"
 #if else
 
 condition=0
@@ -78,12 +79,36 @@ else
 fi
 
 
-T && T =T
-T && F =F
-F && T =F
-F && F =F
+#T && T =T
+#T && F =F
+#F && T =F
+#F && F =F
 
-T || T =T
-T || F =T
-F || T =T
-F || F =F
+#T || T =T
+#T || F =T
+#F || T =T
+#F || F =F
+
+
+echo "********************case statement********************"
+
+case $condition in 
+	1)
+		#body
+	;;
+	2)
+		#body
+	;;
+	3)
+		#body
+	;;
+	*)
+		#body
+	;;
+esca
+
+echo "*******************************function*****************"
+
+function nonParametrized(){
+	echo "from non parametrized"
+}
